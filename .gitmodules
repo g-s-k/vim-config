@@ -28,3 +28,6 @@
 [submodule "vimfiles/pack/gsk/start/nerdtree-git-plugin"]
 	path = vimfiles/pack/gsk/start/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+[submodule "vimfiles/pack/gsk/start/nerdcommenter"]
+	path = vimfiles/pack/gsk/start/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
