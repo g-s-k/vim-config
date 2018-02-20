@@ -16,3 +16,6 @@
 [submodule "vimfiles/pack/gsk/start/delimitMate"]
 	path = vimfiles/pack/gsk/start/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
+[submodule "vimfiles/pack/gsk/start/closetag"]
+	path = vimfiles/pack/gsk/start/closetag
+	url = https://github.com/docunext/closetag.vim.git
