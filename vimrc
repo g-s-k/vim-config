@@ -16,6 +16,9 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" filetype-specific config
+autocmd BufEnter *.m    compiler mlint
+
 " windows-specific config
 if has('unix')
   set backupdir=/tmp
