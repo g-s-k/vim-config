@@ -31,3 +31,6 @@
 [submodule "vimfiles/pack/gsk/start/nerdcommenter"]
 	path = vimfiles/pack/gsk/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "vimfiles/pack/gsk/start/vim-gitgutter"]
+	path = vimfiles/pack/gsk/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
