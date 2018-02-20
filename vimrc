@@ -1,13 +1,4 @@
-" colorscheme
-set background=dark
-let g:solarized_termtrans=1
-let g:solarized_termcolors=256
-let g:solarized_contrast="high"
-let g:solarized_visibility="high"
-colorscheme solarized
-
 " text formatting
-set guifont=Monospace\ 14
 filetype indent on
 filetype plugin on
 syntax on
@@ -19,13 +10,32 @@ set expandtab
 " filetype-specific config
 autocmd BufEnter *.m    compiler mlint
 
-" windows-specific config
+" os-specific config
 if has('unix')
   set backupdir=/tmp
   set dir=/tmp
 elseif has('win32') || has('win64')
   set backupdir=$TMP
   set dir=$TMP
+endif
+
+" gui only
+if has('gui_running')
+  " misc options
+  set guioptions-=T
+  " colorscheme
+  set background=dark
+  let g:solarized_termtrans=1
+  let g:solarized_termcolors=256
+  let g:solarized_contrast="high"
+  let g:solarized_visibility="high"
+  colorscheme solarized
+  " os-specific gui-only things
+  if has('gui_win32')
+    set guifont=Consolas:h11
+  else
+    set guifont=Monospace\ 14
+  endif
 endif
 
 " make sure everything loads
