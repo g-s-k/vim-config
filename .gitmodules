@@ -35,3 +35,6 @@
 [submodule "vimfiles/pack/gsk/start/ale"]
 	path = vimfiles/pack/gsk/start/ale
 	url = https://github.com/w0rp/ale.git
+[submodule "vimfiles/pack/gsk/start/vim-matlab"]
+	path = vimfiles/pack/gsk/start/vim-matlab
+	url = https://github.com/djoshea/vim-matlab.git
