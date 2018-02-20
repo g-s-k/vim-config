@@ -4,3 +4,6 @@
 [submodule "vimfiles/pack/gsk/start/vim-airline"]
 	path = vimfiles/pack/gsk/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
+[submodule "vimfiles/pack/gsk/start/supertab"]
+	path = vimfiles/pack/gsk/start/supertab
+	url = https://github.com/vim-scripts/supertab.git
