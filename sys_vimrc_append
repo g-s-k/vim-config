@@ -1,0 +1,11 @@
+" For the odd situation where you're working in a Windows environment and your
+" $HOME env variable is set to some remote drive, append this to the end of
+" the system _vimrc file.
+
+if $HOME == 'U:\'
+  let $HOME = $USERPROFILE
+  set packpath+=$HOME/vimfiles
+  set rtp+=$HOME/vimfiles
+  source $HOME/_vimrc
+endif
+
