@@ -19,9 +19,6 @@
 [submodule "vimfiles/pack/gsk/start/closetag"]
 	path = vimfiles/pack/gsk/start/closetag
 	url = https://github.com/docunext/closetag.vim.git
-[submodule "vimfiles/pack/gsk/start/pyflakes-vim"]
-	path = vimfiles/pack/gsk/start/pyflakes-vim
-	url = https://github.com/kevinw/pyflakes-vim.git
 [submodule "vimfiles/pack/gsk/start/nerdtree"]
 	path = vimfiles/pack/gsk/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
