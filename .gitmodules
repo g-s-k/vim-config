@@ -31,3 +31,6 @@
 [submodule "vimfiles/pack/gsk/start/vim-gitgutter"]
 	path = vimfiles/pack/gsk/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "vimfiles/pack/gsk/start/ale"]
+	path = vimfiles/pack/gsk/start/ale
+	url = https://github.com/w0rp/ale.git
