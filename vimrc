@@ -13,3 +13,7 @@ filetype plugin on
 syntax on
 set number
 
+" make sure everything loads
+packloadall
+silent! helptags ALL
+
