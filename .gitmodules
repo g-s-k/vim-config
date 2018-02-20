@@ -13,3 +13,6 @@
 [submodule "vimfiles/pack/gsk/start/vim-surround"]
 	path = vimfiles/pack/gsk/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "vimfiles/pack/gsk/start/delimitMate"]
+	path = vimfiles/pack/gsk/start/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
