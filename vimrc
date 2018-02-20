@@ -9,6 +9,7 @@ colorscheme solarized
 " text formatting
 set guifont=Monospace:h12
 filetype indent on
+filetype plugin on
 syntax on
 set number
 
