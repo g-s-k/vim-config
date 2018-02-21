@@ -39,3 +39,6 @@
 	path = vimfiles/pack/gsk/start/vim-matlab
 	url = https://github.com/djoshea/vim-matlab.git
   ignore = dirty
+[submodule "vimfiles/pack/gsk/start/NeoSolarized"]
+	path = vimfiles/pack/gsk/start/NeoSolarized
+	url = https://github.com/icymind/NeoSolarized.git
