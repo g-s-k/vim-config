@@ -19,17 +19,15 @@ elseif has('win32') || has('win64')
   set dir=$TMP
 endif
 
+" colorscheme
+set termguicolors
+set background=dark
+colorscheme NeoSolarized
+
 " gui only
 if has('gui_running')
   " misc options
   set guioptions-=T
-  " colorscheme
-  set background=dark
-  let g:solarized_termtrans=1
-  let g:solarized_termcolors=256
-  let g:solarized_contrast="high"
-  let g:solarized_visibility="high"
-  colorscheme solarized
   " os-specific gui-only things
   if has('gui_win32')
     set guifont=Consolas:h11
