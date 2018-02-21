@@ -7,10 +7,6 @@
 [submodule "vimfiles/pack/gsk/start/supertab"]
 	path = vimfiles/pack/gsk/start/supertab
 	url = https://github.com/vim-scripts/supertab.git
-[submodule "vimfiles/pack/gsk/start/solarized"]
-	path = vimfiles/pack/gsk/start/solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
-	ignore = dirty
 [submodule "vimfiles/pack/gsk/start/vim-surround"]
 	path = vimfiles/pack/gsk/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
