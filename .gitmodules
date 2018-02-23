@@ -38,3 +38,6 @@
 [submodule "vimfiles/pack/gsk/start/NeoSolarized"]
 	path = vimfiles/pack/gsk/start/NeoSolarized
 	url = https://github.com/icymind/NeoSolarized.git
+[submodule "vimfiles/pack/gsk/start/vimtex"]
+	path = vimfiles/pack/gsk/start/vimtex
+	url = https://github.com/lervag/vimtex.git
