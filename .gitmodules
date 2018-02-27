@@ -41,3 +41,6 @@
 [submodule "vimfiles/pack/gsk/start/vimtex"]
 	path = vimfiles/pack/gsk/start/vimtex
 	url = https://github.com/lervag/vimtex.git
+[submodule "vimfiles/pack/gsk/start/vim-ps1"]
+	path = vimfiles/pack/gsk/start/vim-ps1
+	url = https://github.com/PProvost/vim-ps1.git
