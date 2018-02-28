@@ -47,3 +47,6 @@
 [submodule "vimfiles/pack/gsk/start/vim-unimpaired"]
 	path = vimfiles/pack/gsk/start/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "vimfiles/pack/gsk/start/vim-closetag"]
+	path = vimfiles/pack/gsk/start/vim-closetag
+	url = https://github.com/alvan/vim-closetag.git
