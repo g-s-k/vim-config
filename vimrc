@@ -9,6 +9,7 @@ set expandtab
 
 " filetype-specific config
 autocmd BufEnter *.m    compiler mlint
+autocmd BufEnter *.m    cd %:p:h
 
 " os-specific config
 if has('unix')
