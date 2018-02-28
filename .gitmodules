@@ -44,3 +44,6 @@
 [submodule "vimfiles/pack/gsk/start/vim-ps1"]
 	path = vimfiles/pack/gsk/start/vim-ps1
 	url = https://github.com/PProvost/vim-ps1.git
+[submodule "vimfiles/pack/gsk/start/vim-unimpaired"]
+	path = vimfiles/pack/gsk/start/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
