@@ -24,6 +24,7 @@ endif
 set termguicolors
 set background=dark
 colorscheme NeoSolarized
+let g:airline_theme='base16_spacemacs'
 
 " gui only
 if has('gui_running')
