@@ -6,6 +6,7 @@ set number
 set tabstop=2
 set shiftwidth=2
 set expandtab
+let delimitMate_expand_cr=1
 
 " filetype-specific config
 autocmd BufEnter *.m    compiler mlint
