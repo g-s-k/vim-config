@@ -57,9 +57,6 @@
 	path = vimfiles/pack/gsk/start/golden-ratio
 	url = https://github.com/roman/golden-ratio.git
   ignore = dirty
-[submodule "vimfiles/pack/gsk/start/vim-codefmt"]
-	path = vimfiles/pack/gsk/start/vim-codefmt
-	url = https://github.com/google/vim-codefmt.git
 [submodule "vimfiles/pack/gsk/start/ctrlp.vim"]
 	path = vimfiles/pack/gsk/start/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
