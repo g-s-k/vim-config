@@ -63,3 +63,6 @@
 [submodule "vimfiles/pack/gsk/start/vim-airline-themes"]
 	path = vimfiles/pack/gsk/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "vimfiles/pack/gsk/start/vim-toml"]
+	path = vimfiles/pack/gsk/start/vim-toml
+	url = https://github.com/cespare/vim-toml.git
