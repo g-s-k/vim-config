@@ -8,6 +8,11 @@ set shiftwidth=2
 set expandtab
 let delimitMate_expand_cr=1
 
+" env setup
+set signcolumn=yes
+let g:gitgutter_max_signs=1500
+set updatetime=100
+
 " filetype-specific config
 autocmd BufEnter *.m    compiler mlint
 autocmd BufEnter *.m    cd %:p:h
