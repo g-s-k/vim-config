@@ -16,6 +16,7 @@ set updatetime=100
 " filetype-specific config
 autocmd BufEnter *.m    compiler mlint
 autocmd BufEnter *.m    cd %:p:h
+autocmd BufEnter *.prj  set syntax=xml
 
 " os-specific config
 if has('unix')
