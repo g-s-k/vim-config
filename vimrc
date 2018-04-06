@@ -9,9 +9,15 @@ set expandtab
 let delimitMate_expand_cr=1
 
 " env setup
-set signcolumn=yes
+if has('nvim-0.1')
+  let g:ale_use_deprecated_neovim=1
+  let g:gitgutter_sign_column_always=1
+else
+  set signcolumn=yes
+endif
+
 let g:gitgutter_max_signs=1500
-set updatetime=100
+set updatetime=500
 
 " filetype-specific config
 autocmd BufEnter *.m    compiler mlint
