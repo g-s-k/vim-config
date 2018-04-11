@@ -29,12 +29,7 @@ if has('unix')
   set backupdir=/tmp
   set dir=/tmp
 elseif has('win32') || has('win64')
-  let g:vimtex_view_method='general'
-  let g:vimtex_view_general_viewer='C:\Program Files\SumatraPDF\SumatraPDF.exe'
-  let g:vimtex_compiler_latexmk={
-        \ 'callback': 0,
-        \ 'continuous': 0,
-        \}
+  let g:vimtex_view_general_viewer='SumatraPDF'
   set backupdir=$TMP
   set dir=$TMP
 endif
