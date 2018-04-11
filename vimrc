@@ -1,6 +1,5 @@
 " text formatting
-filetype indent on
-filetype plugin on
+filetype plugin indent on
 syntax on
 set number
 set tabstop=2
@@ -9,7 +8,7 @@ set expandtab
 let delimitMate_expand_cr=1
 
 " env setup
-if has('nvim-0.2')
+if v:version >= 800
   set signcolumn=yes
 else
   let g:ale_use_deprecated_neovim=1
