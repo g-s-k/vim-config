@@ -8,7 +8,7 @@ set expandtab
 let delimitMate_expand_cr=1
 
 " env setup
-if v:version >= 800
+if v:version >= 800 || has('nvim-0.2')
   set signcolumn=yes
 else
   let g:ale_use_deprecated_neovim=1
