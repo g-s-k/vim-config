@@ -4,14 +4,14 @@ my configuration for vim/gvim. uses soft linking and git submodules.
 ## instructions
   * Clone this repository.
   * Add a soft link to the `vimrc` file:
-  
+
 | | Vim | Neovim |
 | --- |:---:|:---:|
 | \*nix | `~/.vimrc` | `~/.config/nvim/init.vim` |
 | Windows | `$HOME/_vimrc` | `%LOCALAPPDATA%\nvim\init.vim` |
 
   * Add a soft link to the `vimfiles` directory. Note that on Windows, you must use a **directory** symlink.
-  
+
 | | Vim | Neovim |
 | --- |:---:|:---:|
 | \*nix | `~/.vim` | `~/.local/share/nvim/site` |
