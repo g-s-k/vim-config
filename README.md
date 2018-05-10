@@ -17,7 +17,7 @@ my configuration for vim/gvim. uses soft linking and git submodules.
 | \*nix | `~/.vim` | `~/.local/share/nvim/site` |
 | Windows | `$HOME/vimfiles` | `%LOCALAPPDATA%\nvim\site` |
 
-  * If on a Windows platform with `$HOME` set to an undesirable location, append the contents of `sys_vimrc_append` to the system `_vimrc` file (typically located at `$VIM/_vimrc`).
+  * If on a Windows platform with `$HOME` set to an undesirable location, append the contents of `sys_vimrc_append` to the system `_vimrc` file (typically located at `$VIM/_vimrc`). NOTE: If you can rely on your environment variables to stay put, it may just be easier to set both system- and user-level variables named `HOME` to the value `%USERPROFILE%`.
   * Run `git submodule init`, then `git submodule update` in the local repository.
   * If you are on Windows and plan to use the vimtex package, ensure you have set up latexmk correctly and that SumatraPDF is on your system PATH.
 
