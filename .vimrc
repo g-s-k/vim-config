@@ -5,7 +5,6 @@ set number
 set tabstop=2
 set shiftwidth=2
 set expandtab
-let delimitMate_expand_cr=1
 
 " env setup
 if v:version >= 800 || has('nvim-0.2')
@@ -27,6 +26,7 @@ autocmd BufEnter *.prj  set syntax=xml
 if has('unix')
   set backupdir=/tmp
   set dir=/tmp
+  let delimitMate_expand_cr=1
 elseif has('win32') || has('win64')
   let g:vimtex_view_general_viewer='SumatraPDF'
   set backupdir=$TMP
