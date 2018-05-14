@@ -1,0 +1,11 @@
+# don't stow the readme(s)
+^/README.*
+
+# don't stow any git stuff
+\.git
+\.gitattributes
+\.gitignore
+\.gitmodules
+
+# don't stow the helper file
+sys_vimrc_append
