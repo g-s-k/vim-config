@@ -5,14 +5,14 @@ my configuration for vim/nvim. uses soft linking and git submodules.
   * Clone this repository to your dotfiles folder.
   * Run `git submodule update --init` in the local repository.
   * If on *nix: run GNU `stow`. That's it. You're done.
-  * Otherwise (or if that doesn't work), add a soft link to the `vimrc` file:
+  * Otherwise (or if that doesn't work), add a soft link to the `.vimrc` file:
 
 | | Vim | Neovim |
 | --- |:---:|:---:|
 | \*nix | `~/.vimrc` | `~/.config/nvim/init.vim` |
 | Windows | `$HOME/_vimrc` | `%LOCALAPPDATA%\nvim\init.vim` |
 
-  * Then add a soft link to the `vimfiles` directory. Note that on Windows, you must use a **directory** symlink.
+  * Then add a soft link to the `.vim` directory. Note that on Windows, you must use a **directory** symlink.
 
 | | Vim | Neovim |
 | --- |:---:|:---:|
