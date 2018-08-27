@@ -34,7 +34,9 @@ elseif has('win32') || has('win64')
 endif
 
 " colorscheme
-set termguicolors
+if v:version >= 750
+  set termguicolors
+end
 set background=dark
 colorscheme NeoSolarized
 let g:airline_theme='base16_spacemacs'
